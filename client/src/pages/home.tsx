@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@assets/generated_images/elegant_creative_studio_workspace_background.png";
 import restaurantImg from "@assets/generated_images/modern_moroccan_restaurant_interior.png";
 import galaImg from "@assets/generated_images/luxury_gala_dinner_event_setting.png";
-import portraitImg from "@assets/generated_images/professional_portrait_of_a_creative_director.png";
+import portraitImg from "@assets/IMG_0685_1764789357001.jpeg";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
