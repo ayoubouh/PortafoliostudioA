@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import heroBg from "@assets/generated_images/elegant_creative_studio_workspace_background.png";
 import restaurantImg from "@assets/generated_images/modern_moroccan_restaurant_interior.png";
 import galaImg from "@assets/generated_images/luxury_gala_dinner_event_setting.png";
+import portraitImg from "@assets/generated_images/professional_portrait_of_a_creative_director.png";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -129,11 +130,13 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="relative aspect-[4/5] bg-muted/30 border border-white/10 flex items-center justify-center group overflow-hidden"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <span className="text-muted-foreground font-serif italic text-2xl">
-              (Insérer votre photo ici)
-            </span>
-            {/* Placeholder for user photo - styling matches description */}
+            <img 
+              src={portraitImg} 
+              alt="Ayoub Ouhaddou" 
+              className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
+            
             <div className="absolute bottom-4 left-4 right-4 p-4 bg-background/80 backdrop-blur-sm border border-white/10">
               <p className="font-serif text-lg text-primary">Ayoub Ouhaddou</p>
               <p className="text-xs text-muted-foreground uppercase tracking-wider">Directeur Artistique</p>
