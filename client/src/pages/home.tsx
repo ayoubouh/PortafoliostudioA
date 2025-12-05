@@ -502,6 +502,9 @@ const Footer = () => {
   );
 };
 
+import { AiChatBot } from "@/components/ai-chat-bot";
+import { WhatsAppButton } from "@/components/whatsapp-button";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-black transition-colors duration-300">
@@ -512,6 +515,8 @@ export default function Home() {
       <Services />
       <WhyMe />
       <Footer />
+      <AiChatBot />
+      <WhatsAppButton />
     </div>
   );
 }

@@ -57,6 +57,16 @@ export const translations = {
     "footer.cta": "Me contacter",
     "footer.ready": "Prêt à lancer votre projet ?",
     "footer.rights": "Tous droits réservés.",
+    "chatbot.greeting": "Bonjour ! Je suis l'assistant virtuel d'Ayoub. Comment puis-je vous aider ?",
+    "chatbot.option.services": "Voir les offres",
+    "chatbot.option.contact": "Me contacter",
+    "chatbot.option.portfolio": "Voir le portfolio",
+    "chatbot.placeholder": "Écrivez un message...",
+    "chatbot.typing": "En train d'écrire...",
+    "chatbot.response.services": "Nous proposons des services de Branding, Marketing, Photographie et Événementiel. Lequel vous intéresse ?",
+    "chatbot.response.contact": "Vous pouvez contacter Ayoub directement au +212 6 21 69 53 12 ou par email.",
+    "chatbot.response.portfolio": "Je vous invite à parcourir la section Portfolio pour découvrir nos réalisations récentes !",
+    "chatbot.response.default": "Je suis une IA en démonstration. Pour une réponse précise, n'hésitez pas à contacter Ayoub directement sur WhatsApp !"
   },
   ar: {
     "nav.about": "من أنا",
@@ -103,6 +113,16 @@ export const translations = {
     "footer.cta": "تواصل معي",
     "footer.ready": "جاهز لإطلاق مشروعك؟",
     "footer.rights": "جميع الحقوق محفوظة.",
+    "chatbot.greeting": "مرحباً! أنا المساعد الافتراضي لأيوب. كيف يمكنني مساعدتك اليوم؟",
+    "chatbot.option.services": "الاطلاع على الخدمات",
+    "chatbot.option.contact": "اتصل بي",
+    "chatbot.option.portfolio": "تصفح الأعمال",
+    "chatbot.placeholder": "اكتب رسالة...",
+    "chatbot.typing": "يكتب...",
+    "chatbot.response.services": "نحن نقدم خدمات العلامة التجارية، التسويق، التصوير الفوتوغرافي وتنظيم الفعاليات. أي منها يهمك؟",
+    "chatbot.response.contact": "يمكنك الاتصال بأيوب مباشرة على +212 6 21 69 53 12 أو عبر البريد الإلكتروني.",
+    "chatbot.response.portfolio": "أدعوكم لتصفح قسم الأعمال لاكتشاف أحدث مشاريعنا!",
+    "chatbot.response.default": "أنا ذكاء اصطناعي تجريبي. للحصول على إجابة دقيقة، لا تتردد في الاتصال بأيوب مباشرة عبر واتساب!"
   }
 };
 
