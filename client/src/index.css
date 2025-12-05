@@ -32,10 +32,43 @@
   --radius-lg: var(--radius);
 }
 
-/* Dark Luxury Theme - Default */
+/* Light Theme (Clean White/Beige) */
 :root {
-  --background: 240 5% 6%; /* Very dark gray, almost black */
-  --foreground: 0 0% 95%; /* Off-white */
+  --background: 0 0% 98%;
+  --foreground: 240 5% 6%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 240 5% 6%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 240 5% 6%;
+
+  --primary: 45 40% 45%; /* Darker gold for light mode contrast */
+  --primary-foreground: 0 0% 98%;
+
+  --secondary: 240 4% 96%;
+  --secondary-foreground: 240 5% 6%;
+
+  --muted: 240 4% 96%;
+  --muted-foreground: 240 5% 45%;
+
+  --accent: 45 40% 45%;
+  --accent-foreground: 0 0% 98%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 240 5% 90%;
+  --input: 240 5% 90%;
+  --ring: 45 40% 45%;
+
+  --radius: 0rem;
+}
+
+/* Dark Luxury Theme */
+.dark {
+  --background: 240 5% 6%;
+  --foreground: 0 0% 95%;
 
   --card: 240 4% 10%;
   --card-foreground: 0 0% 95%;
@@ -61,8 +94,6 @@
   --border: 240 4% 16%;
   --input: 240 4% 16%;
   --ring: 45 40% 55%;
-
-  --radius: 0rem; /* Sharp corners for luxury feel */
 }
 
 @layer base {
